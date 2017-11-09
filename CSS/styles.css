@@ -1,0 +1,31 @@
+body {
+    margin: 0 auto;     /*Vi sätter margin 0 på top/bottom och auto på left/right*/
+    width: 600px;       /*Vi sätter en bredd på webbsidan på 600px*/
+    font-size: 16px;    /*Vi sätter standard på text-storlek till 16px*/
+    
+}
+
+
+
+h1{  /*Selektor för h1*/
+    text-align: center;     /*Vi centrerar texten*/
+    font-size: 450%;        /*Vi sätter en text-storlek till 450% av vår standard*/
+    color: yellow;          /*Vi sätter en textfärg till gul(hexkod)*/
+    border-bottom: 2px solid black;  /*Vi skapar en border på undersidan, 2px tjock, solid och svartfärgad*/
+        
+}
+
+p{      /*Selektor för paragraf*/
+    font-size: 300%;    /*Vi sätter en text-storlek till 300% av vår standard*/
+    padding: 0 20px;    /*Vi sätter en padding på 0 i top/bottom och 20 på left/right*/
+    text-align: justify /*Vi sätter justify som text-align. (bakar ut texten snyggt)*/
+    
+    
+}
+
+li { /*Selektor för varje li-element*/
+    float: left; /*Vi säger åt våra li att lägga sig till vänster*/
+    margin-left: 40px; /*Vi sätter en vänster-marginal på 40px*/
+    
+    
+}
